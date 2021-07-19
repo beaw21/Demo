@@ -1,0 +1,2025 @@
+[{
+        "key": "AXiyOupRkmD2-C_JU2Y5",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSink.java",
+        "project": "flink",
+        "line": 164,
+        "hash": "4394ada880a1ba95fcb3b3d006e5f1c5",
+        "textRange": {
+            "startLine": 164,
+            "endLine": 164,
+            "startOffset": 19,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOupRkmD2-C_JU2Y6",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSink.java",
+        "project": "flink",
+        "line": 169,
+        "hash": "fb241de823c5ee63e8061590172cbc62",
+        "textRange": {
+            "startLine": 169,
+            "endLine": 169,
+            "startOffset": 19,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOupRkmD2-C_JU2Y7",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSink.java",
+        "project": "flink",
+        "line": 177,
+        "hash": "87e722c47640854362dcdb9ee6332b76",
+        "textRange": {
+            "startLine": 177,
+            "endLine": 177,
+            "startOffset": 49,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOupRkmD2-C_JU2Y8",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSink.java",
+        "project": "flink",
+        "line": 205,
+        "hash": "5c91cbb2556d280c192ada715b09b342",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 41,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOupRkmD2-C_JU2Y-",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSink.java",
+        "project": "flink",
+        "line": 335,
+        "hash": "9de6ede45d54c542ec8ec968588e29d6",
+        "textRange": {
+            "startLine": 335,
+            "endLine": 335,
+            "startOffset": 42,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOupRkmD2-C_JU2Y_",
+        "rule": "java:S1452",
+        "severity": "CRITICAL",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSink.java",
+        "project": "flink",
+        "line": 405,
+        "hash": "49b94d33294615a4998706a0b154e53c",
+        "textRange": {
+            "startLine": 405,
+            "endLine": 405,
+            "startOffset": 37,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove usage of generic wildcard type.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "pitfall"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOupRkmD2-C_JU2ZA",
+        "rule": "java:S1452",
+        "severity": "CRITICAL",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSink.java",
+        "project": "flink",
+        "line": 405,
+        "hash": "49b94d33294615a4998706a0b154e53c",
+        "textRange": {
+            "startLine": 405,
+            "endLine": 405,
+            "startOffset": 69,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove usage of generic wildcard type.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "pitfall"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOup7kmD2-C_JU2ZC",
+        "rule": "java:S1301",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/FileSinkCommittableSerializer.java",
+        "project": "flink",
+        "line": 73,
+        "hash": "ba60d4afbae6c1dafbfce85b1837e84c",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 8,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "bad-practice"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOumSkmD2-C_JU2Ys",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/writer/DefaultFileWriterBucketFactory.java",
+        "project": "flink",
+        "line": 31,
+        "hash": "7e5822fe337d20ec65b8bf258295b0ba",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 44,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOuoGkmD2-C_JU2Yz",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/writer/FileWriter.java",
+        "project": "flink",
+        "line": 97,
+        "hash": "18d6979d36763862ffb7ca4c71beb743",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 11,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "brain-overload"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOunRkmD2-C_JU2Yv",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/writer/FileWriterBucket.java",
+        "project": "flink",
+        "line": 59,
+        "hash": "ddaeac0e33efddeb1e799950af054443",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 23,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOunRkmD2-C_JU2Yu",
+        "rule": "java:S1155",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/writer/FileWriterBucket.java",
+        "project": "flink",
+        "line": 165,
+        "hash": "58dfb53b3f5eb112296fc1060cddec06",
+        "textRange": {
+            "startLine": 165,
+            "endLine": 165,
+            "startOffset": 76,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use isEmpty() to check whether the collection is empty or not.",
+        "effort": "2min",
+        "debt": "2min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "clumsy"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOunRkmD2-C_JU2Yw",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/writer/FileWriterBucket.java",
+        "project": "flink",
+        "line": 321,
+        "hash": "16c704fc2ea4fb773945bc5664fd59fb",
+        "textRange": {
+            "startLine": 321,
+            "endLine": 321,
+            "startOffset": 12,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOunRkmD2-C_JU2Yx",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/writer/FileWriterBucket.java",
+        "project": "flink",
+        "line": 341,
+        "hash": "e94737f367e62c3e4006a5a22a52d1fb",
+        "textRange": {
+            "startLine": 341,
+            "endLine": 341,
+            "startOffset": 12,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOuopkmD2-C_JU2Y1",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-connector-files/src/main/java/org/apache/flink/connector/file/sink/writer/FileWriterBucketFactory.java",
+        "project": "flink",
+        "line": 33,
+        "hash": "1201fc8aab1abdca43f55b312b4b3384",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 41,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-05T16:59:56+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOvsBkmD2-C_JU2f1",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-file-sink-common/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/BucketWriter.java",
+        "project": "flink",
+        "line": 28,
+        "hash": "fdc21d02538be0797fec0df0acd54a6b",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 30,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-19T11:10:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOvsBkmD2-C_JU2f2",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-file-sink-common/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/BucketWriter.java",
+        "project": "flink",
+        "line": 28,
+        "hash": "fdc21d02538be0797fec0df0acd54a6b",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 34,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-19T11:10:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOvz0kmD2-C_JU2gZ",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-file-sink-common/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/InProgressFileWriter.java",
+        "project": "flink",
+        "line": 27,
+        "hash": "41c802a4da1016a1f6e2f9ab40d2dde5",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 38,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-19T11:10:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOvz0kmD2-C_JU2ga",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-connectors/flink-file-sink-common/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/InProgressFileWriter.java",
+        "project": "flink",
+        "line": 27,
+        "hash": "41c802a4da1016a1f6e2f9ab40d2dde5",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 42,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-19T11:10:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyO1QpkmD2-C_JU3Zj",
+        "rule": "java:S1874",
+        "severity": "MINOR",
+        "component": "flink:flink-core/src/main/java/org/apache/flink/configuration/NettyShuffleEnvironmentOptions.java",
+        "project": "flink",
+        "line": 235,
+        "hash": "fc4fb4f19681f47d9da365b2478e0979",
+        "textRange": {
+            "startLine": 235,
+            "endLine": 235,
+            "startOffset": 21,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this use of \"defaultValue\"; it is deprecated.",
+        "effort": "15min",
+        "debt": "15min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "cert",
+            "cwe",
+            "obsolete"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2019-07-11T13:59:06+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOe1_kmD2-C_JU0pp",
+        "rule": "java:S1874",
+        "severity": "MINOR",
+        "component": "flink:flink-end-to-end-tests/flink-file-sink-test/src/main/java/FileSinkProgram.java",
+        "project": "flink",
+        "line": 87,
+        "hash": "221d16779475e604f7dd32c75fa90998",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 19,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this use of \"keyBy\"; it is deprecated.",
+        "effort": "15min",
+        "debt": "15min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "cert",
+            "cwe",
+            "obsolete"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-08T17:46:04+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOe1_kmD2-C_JU0pr",
+        "rule": "java:S1874",
+        "severity": "MINOR",
+        "component": "flink:flink-end-to-end-tests/flink-file-sink-test/src/main/java/FileSinkProgram.java",
+        "project": "flink",
+        "line": 100,
+        "hash": "3b0d70726a257fdcd60264ef83978c58",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 19,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this use of \"keyBy\"; it is deprecated.",
+        "effort": "15min",
+        "debt": "15min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "cert",
+            "cwe",
+            "obsolete"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-08T17:46:04+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOg8WkmD2-C_JU01x",
+        "rule": "java:S1301",
+        "severity": "MINOR",
+        "component": "flink:flink-formats/flink-hadoop-bulk/src/main/java/org/apache/flink/formats/hadoop/bulk/HadoopPathBasedPartFileWriter.java",
+        "project": "flink",
+        "line": 176,
+        "hash": "ba60d4afbae6c1dafbfce85b1837e84c",
+        "textRange": {
+            "startLine": 176,
+            "endLine": 176,
+            "startOffset": 12,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "bad-practice"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-19T11:10:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOg7dkmD2-C_JU01u",
+        "rule": "java:S1135",
+        "severity": "INFO",
+        "component": "flink:flink-formats/flink-hadoop-bulk/src/main/java/org/apache/flink/formats/hadoop/bulk/committer/HadoopRenameFileCommitter.java",
+        "project": "flink",
+        "line": 94,
+        "hash": "8d398088427da286f3eda5586608a190",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 0,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Complete the task associated to this TODO comment.",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "cwe"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-19T11:10:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOg9LkmD2-C_JU012",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "flink:flink-formats/flink-hadoop-bulk/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/HadoopPathBasedBulkFormatBuilder.java",
+        "project": "flink",
+        "line": 74,
+        "hash": "bb61ce66383ed8c8feeb01767d3999f9",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 11,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "brain-overload"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-19T11:10:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORP_kmD2-C_JUzsY",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+        "project": "flink",
+        "line": 258,
+        "hash": "1de0c0a36cf5b8dddccce17d7b9086a3",
+        "textRange": {
+            "startLine": 258,
+            "endLine": 258,
+            "startOffset": 11,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 14 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "brain-overload"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-06T09:51:30+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORP_kmD2-C_JUzsi",
+        "rule": "java:S3776",
+        "severity": "CRITICAL",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+        "project": "flink",
+        "line": 520,
+        "hash": "f0035306684266375e35a3a56d2dfeaf",
+        "textRange": {
+            "startLine": 520,
+            "endLine": 520,
+            "startOffset": 17,
+            "endOffset": 42
+        },
+        "flows": [{
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 547,
+                        "endLine": 547,
+                        "startOffset": 42,
+                        "endOffset": 47
+                    },
+                    "msg": "+2 (incl 1 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 602,
+                        "endLine": 602,
+                        "startOffset": 67,
+                        "endOffset": 69
+                    },
+                    "msg": "+1"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 605,
+                        "endLine": 605,
+                        "startOffset": 40,
+                        "endOffset": 42
+                    },
+                    "msg": "+2 (incl 1 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 607,
+                        "endLine": 607,
+                        "startOffset": 44,
+                        "endOffset": 46
+                    },
+                    "msg": "+3 (incl 2 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 609,
+                        "endLine": 609,
+                        "startOffset": 46,
+                        "endOffset": 50
+                    },
+                    "msg": "+1"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 612,
+                        "endLine": 612,
+                        "startOffset": 42,
+                        "endOffset": 46
+                    },
+                    "msg": "+1"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 613,
+                        "endLine": 613,
+                        "startOffset": 44,
+                        "endOffset": 46
+                    },
+                    "msg": "+3 (incl 2 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 620,
+                        "endLine": 620,
+                        "startOffset": 46,
+                        "endOffset": 50
+                    },
+                    "msg": "+1"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 640,
+                        "endLine": 640,
+                        "startOffset": 48,
+                        "endOffset": 50
+                    },
+                    "msg": "+4 (incl 3 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 651,
+                        "endLine": 651,
+                        "startOffset": 40,
+                        "endOffset": 42
+                    },
+                    "msg": "+2 (incl 1 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 653,
+                        "endLine": 653,
+                        "startOffset": 47,
+                        "endOffset": 49
+                    },
+                    "msg": "+1"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 657,
+                        "endLine": 657,
+                        "startOffset": 42,
+                        "endOffset": 46
+                    },
+                    "msg": "+1"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+                    "textRange": {
+                        "startLine": 662,
+                        "endLine": 662,
+                        "startOffset": 10,
+                        "endOffset": 15
+                    },
+                    "msg": "+1"
+                }]
+            }
+        ],
+        "status": "OPEN",
+        "message": "Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.",
+        "effort": "13min",
+        "debt": "13min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "brain-overload"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-26T13:18:02+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORP_kmD2-C_JUzsk",
+        "rule": "java:S1181",
+        "severity": "MAJOR",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+        "project": "flink",
+        "line": 547,
+        "hash": "0325224bb45891ffbfad721ffec46148",
+        "textRange": {
+            "startLine": 547,
+            "endLine": 547,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Catch Exception instead of Throwable.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "bad-practice",
+            "cert",
+            "cppcoreguidelines",
+            "cwe",
+            "error-handling"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-26T13:18:02+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORP_kmD2-C_JUzsl",
+        "rule": "java:S1611",
+        "severity": "MINOR",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/CheckpointCoordinator.java",
+        "project": "flink",
+        "line": 553,
+        "hash": "0f319a2e92e2547480b9fdd8098f18c7",
+        "textRange": {
+            "startLine": 553,
+            "endLine": 553,
+            "startOffset": 36,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the parentheses around the \"checkpointInfo\" parameter",
+        "effort": "2min",
+        "debt": "2min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "java8"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-26T13:18:02+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORSYkmD2-C_JUztI",
+        "rule": "java:S1135",
+        "severity": "INFO",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+        "project": "flink",
+        "line": 64,
+        "hash": "9de9a68a72be33f3c0e8ca8ad8e42daf",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 0,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Complete the task associated to this TODO comment.",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "cwe"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-26T13:18:02+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORSYkmD2-C_JUztJ",
+        "rule": "java:S1181",
+        "severity": "MAJOR",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+        "project": "flink",
+        "line": 117,
+        "hash": "6bca2f9fce5bdb70c5c39bef9aa4eaa8",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 29,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Catch Exception instead of Throwable.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "bad-practice",
+            "cert",
+            "cppcoreguidelines",
+            "cwe",
+            "error-handling"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-26T13:18:02+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORSYkmD2-C_JUztK",
+        "rule": "java:S3776",
+        "severity": "CRITICAL",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+        "project": "flink",
+        "line": 192,
+        "hash": "ac41687d6e57319e120b96486b6973b5",
+        "textRange": {
+            "startLine": 192,
+            "endLine": 192,
+            "startOffset": 27,
+            "endOffset": 54
+        },
+        "flows": [{
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 204,
+                        "endLine": 204,
+                        "startOffset": 8,
+                        "endOffset": 11
+                    },
+                    "msg": "+1"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 207,
+                        "endLine": 207,
+                        "startOffset": 12,
+                        "endOffset": 14
+                    },
+                    "msg": "+2 (incl 1 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 210,
+                        "endLine": 210,
+                        "startOffset": 16,
+                        "endOffset": 19
+                    },
+                    "msg": "+3 (incl 2 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 224,
+                        "endLine": 224,
+                        "startOffset": 12,
+                        "endOffset": 15
+                    },
+                    "msg": "+2 (incl 1 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 226,
+                        "endLine": 226,
+                        "startOffset": 16,
+                        "endOffset": 18
+                    },
+                    "msg": "+3 (incl 2 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 230,
+                        "endLine": 230,
+                        "startOffset": 20,
+                        "endOffset": 22
+                    },
+                    "msg": "+4 (incl 3 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 235,
+                        "endLine": 235,
+                        "startOffset": 24,
+                        "endOffset": 26
+                    },
+                    "msg": "+5 (incl 4 for nesting)"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/DefaultCheckpointPlanCalculator.java",
+                    "textRange": {
+                        "startLine": 239,
+                        "endLine": 239,
+                        "startOffset": 18,
+                        "endOffset": 22
+                    },
+                    "msg": "+1"
+                }]
+            }
+        ],
+        "status": "OPEN",
+        "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+        "effort": "11min",
+        "debt": "11min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "brain-overload"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-26T13:18:02+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyORVpkmD2-C_JUztb",
+        "rule": "java:S1155",
+        "severity": "MINOR",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/checkpoint/PendingCheckpoint.java",
+        "project": "flink",
+        "line": 138,
+        "hash": "de20ad582de29e18ad4383cfd2d76436",
+        "textRange": {
+            "startLine": 138,
+            "endLine": 138,
+            "startOffset": 16,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use isEmpty() to check whether the collection is empty or not.",
+        "effort": "2min",
+        "debt": "2min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "clumsy"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2021-02-06T09:51:30+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOT_TkmD2-C_JU0FG",
+        "rule": "java:S1192",
+        "severity": "CRITICAL",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/io/disk/FileChannelManagerImpl.java",
+        "project": "flink",
+        "line": 107,
+        "hash": "dc907b8bbdfd686889235a9da95c2b80",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 38,
+            "endOffset": 74
+        },
+        "flows": [{
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/io/disk/FileChannelManagerImpl.java",
+                    "textRange": {
+                        "startLine": 107,
+                        "endLine": 107,
+                        "startOffset": 38,
+                        "endOffset": 74
+                    },
+                    "msg": "Duplication"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/io/disk/FileChannelManagerImpl.java",
+                    "textRange": {
+                        "startLine": 115,
+                        "endLine": 115,
+                        "startOffset": 38,
+                        "endOffset": 74
+                    },
+                    "msg": "Duplication"
+                }]
+            },
+            {
+                "locations": [{
+                    "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/io/disk/FileChannelManagerImpl.java",
+                    "textRange": {
+                        "startLine": 122,
+                        "endLine": 122,
+                        "startOffset": 38,
+                        "endOffset": 74
+                    },
+                    "msg": "Duplication"
+                }]
+            }
+        ],
+        "status": "OPEN",
+        "message": "Define a constant instead of duplicating this literal \"File channel manager has shutdown.\" 3 times.",
+        "effort": "8min",
+        "debt": "8min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "design"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-02-04T10:53:59+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOToYkmD2-C_JU0C9",
+        "rule": "java:S1181",
+        "severity": "MAJOR",
+        "component": "flink:flink-runtime/src/main/java/org/apache/flink/runtime/io/network/buffer/NetworkBufferPool.java",
+        "project": "flink",
+        "line": 455,
+        "hash": "9d94a2e493b16898aa835667125a5484",
+        "textRange": {
+            "startLine": 455,
+            "endLine": 455,
+            "startOffset": 17,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Catch Exception instead of Throwable.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "bad-practice",
+            "cert",
+            "cppcoreguidelines",
+            "cwe",
+            "error-handling"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2019-07-11T13:59:06+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOnxJkmD2-C_JU1ml",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-streaming-java/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/BucketFactory.java",
+        "project": "flink",
+        "line": 31,
+        "hash": "ac2aac87fd9e66aad3c7caad3d5c98e7",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 31,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-25T09:10:53+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOnxJkmD2-C_JU1mm",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-streaming-java/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/BucketFactory.java",
+        "project": "flink",
+        "line": 31,
+        "hash": "ac2aac87fd9e66aad3c7caad3d5c98e7",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 35,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-25T09:10:53+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOnubkmD2-C_JU1mC",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-streaming-java/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/BucketLifeCycleListener.java",
+        "project": "flink",
+        "line": 25,
+        "hash": "8c7b2365fdb85862b408f793a7f8d3e2",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 41,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-27T15:27:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOnubkmD2-C_JU1mD",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-streaming-java/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/BucketLifeCycleListener.java",
+        "project": "flink",
+        "line": 25,
+        "hash": "8c7b2365fdb85862b408f793a7f8d3e2",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 45,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-05-27T15:27:05+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOnwrkmD2-C_JU1mi",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-streaming-java/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/DefaultBucketFactoryImpl.java",
+        "project": "flink",
+        "line": 30,
+        "hash": "69d55a4365cf305a9aeef24eaf4424b3",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 38,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-25T09:10:53+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    },
+    {
+        "key": "AXiyOnwrkmD2-C_JU1mj",
+        "rule": "java:S119",
+        "severity": "MINOR",
+        "component": "flink:flink-streaming-java/src/main/java/org/apache/flink/streaming/api/functions/sink/filesystem/DefaultBucketFactoryImpl.java",
+        "project": "flink",
+        "line": 30,
+        "hash": "69d55a4365cf305a9aeef24eaf4424b3",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 42,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+        "effort": "10min",
+        "debt": "10min",
+        "author": "gaoyunhenhao@gmail.com",
+        "tags": [
+            "convention"
+        ],
+        "transitions": [
+            "confirm",
+            "resolve",
+            "falsepositive",
+            "wontfix"
+        ],
+        "actions": [
+            "set_type",
+            "set_tags",
+            "comment",
+            "set_severity",
+            "assign"
+        ],
+        "comments": [],
+        "creationDate": "2020-11-25T09:10:53+0700",
+        "updateDate": "2021-04-08T11:39:19+0700",
+        "type": "CODE_SMELL",
+        "scope": "MAIN"
+    }
+]
