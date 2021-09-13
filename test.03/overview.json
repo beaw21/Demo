@@ -1,0 +1,5166 @@
+{
+    "total": 22652,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 22652
+    },
+    "effortTotal": 330086,
+    "debtTotal": 330086,
+    "issues": [{
+            "key": "AXiyPJYfkmD2-C_JU5sw",
+            "rule": "java:S1181",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/ClientUtils.java",
+            "project": "flink",
+            "line": 158,
+            "hash": "6bca2f9fce5bdb70c5c39bef9aa4eaa8",
+            "textRange": {
+                "startLine": 158,
+                "endLine": 158,
+                "startOffset": 17,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Catch Exception instead of Throwable.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "rmetzger@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "cppcoreguidelines",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-09-06T17:24:52+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJYfkmD2-C_JU5sv",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/ClientUtils.java",
+            "project": "flink",
+            "line": 160,
+            "hash": "2571bb315aceaa18659f88b3131fda33",
+            "textRange": {
+                "startLine": 160,
+                "endLine": 160,
+                "startOffset": 22,
+                "endOffset": 38
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "rmetzger@apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-09-06T17:24:52+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJk6kmD2-C_JU5vl",
+            "rule": "java:S1118",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/FlinkPipelineTranslationUtil.java",
+            "project": "flink",
+            "line": 31,
+            "hash": "255fb4c8bbb358f2b70c0c231ef19060",
+            "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 19,
+                "endOffset": 47
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a private constructor to hide the implicit public one.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "aljoscha@apache.org",
+            "tags": [
+                "design"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-10-16T19:06:01+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJk6kmD2-C_JU5vk",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/FlinkPipelineTranslationUtil.java",
+            "project": "flink",
+            "line": 80,
+            "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+            "textRange": {
+                "startLine": 80,
+                "endLine": 80,
+                "startOffset": 18,
+                "endOffset": 34
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJlokmD2-C_JU5vm",
+            "rule": "java:S1068",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/StreamGraphTranslator.java",
+            "project": "flink",
+            "line": 41,
+            "hash": "0dd8e5e38d1141570e3261b098856ad9",
+            "textRange": {
+                "startLine": 41,
+                "endLine": 41,
+                "startOffset": 32,
+                "endOffset": 35
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this unused \"LOG\" private field.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "aljoscha@apache.org",
+            "tags": [
+                "unused"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-10-16T19:06:01+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5ux",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 70,
+            "hash": "521821833c156ad601bb57aed5417cdc",
+            "textRange": {
+                "startLine": 70,
+                "endLine": 70,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5uy",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 85,
+            "hash": "18578e6e16b6817e6e69e4d0c0c186db",
+            "textRange": {
+                "startLine": 85,
+                "endLine": 85,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5uz",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 86,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 86,
+                "endLine": 86,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5u0",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 87,
+            "hash": "27d4f11ba160d7a30a9fda38bede7415",
+            "textRange": {
+                "startLine": 87,
+                "endLine": 87,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5u1",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 94,
+            "hash": "9a5ae8f1acf4aca11955dac73c7f98b9",
+            "textRange": {
+                "startLine": 94,
+                "endLine": 94,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5u2",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 95,
+            "hash": "28d6984b54073f134f69209fdea7463e",
+            "textRange": {
+                "startLine": 95,
+                "endLine": 95,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5u3",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 96,
+            "hash": "bd7008e2db2b026bec2bcd3ed5618ebf",
+            "textRange": {
+                "startLine": 96,
+                "endLine": 96,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJiGkmD2-C_JU5u4",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "project": "flink",
+            "line": 97,
+            "hash": "9a5ae8f1acf4aca11955dac73c7f98b9",
+            "textRange": {
+                "startLine": 97,
+                "endLine": 97,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-12-08T21:42:19+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJhJkmD2-C_JU5uv",
+            "rule": "java:S2326",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/ApplicationDeployer.java",
+            "project": "flink",
+            "line": 37,
+            "hash": "f460afe53b916490c6d71f144c27ff9c",
+            "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 5,
+                "endOffset": 14
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "ClusterID is not used in the method.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "kkloudas@gmail.com",
+            "tags": [
+                "cert",
+                "unused"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-05-01T03:08:02+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJhJkmD2-C_JU5uw",
+            "rule": "java:S119",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/ApplicationDeployer.java",
+            "project": "flink",
+            "line": 37,
+            "hash": "f460afe53b916490c6d71f144c27ff9c",
+            "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 5,
+                "endOffset": 14
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kkloudas@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-05-01T03:08:02+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJhJkmD2-C_JU5uu",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/ApplicationDeployer.java",
+            "project": "flink",
+            "line": 40,
+            "hash": "ade88b84548ec15c2f8b184babd0c149",
+            "textRange": {
+                "startLine": 40,
+                "endLine": 40,
+                "startOffset": 19,
+                "endOffset": 28
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5tv",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 221,
+            "hash": "391f7e1fc006d6a37234acd94f76b910",
+            "textRange": {
+                "startLine": 221,
+                "endLine": 221,
+                "startOffset": 45,
+                "endOffset": 54
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-12T02:40:06+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t7",
+            "rule": "java:S2326",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 279,
+            "hash": "25d154b4ef3a4ab199b70c72cd787fed",
+            "textRange": {
+                "startLine": 279,
+                "endLine": 279,
+                "startOffset": 13,
+                "endOffset": 14
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "T is not used in the method.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "danrtsey.wy@alibaba-inc.com",
+            "tags": [
+                "cert",
+                "unused"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-05-14T03:58:42+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5tw",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 320,
+            "hash": "2a415aa99a17c25cd8b1322c4dbb3d9e",
+            "textRange": {
+                "startLine": 320,
+                "endLine": 320,
+                "startOffset": 46,
+                "endOffset": 55
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "aljoscha@apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-04-02T14:56:43+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t8",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 367,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 367,
+                "endLine": 367,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t9",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 369,
+            "hash": "e5c71158028eb748e894972a56d302c8",
+            "textRange": {
+                "startLine": 369,
+                "endLine": 369,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "fabian.hueske@tu-berlin.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2011-04-03T02:54:28+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t-",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 370,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 370,
+                "endLine": 370,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ts",
+            "rule": "java:S1192",
+            "severity": "CRITICAL",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 371,
+            "hash": "3fc8e76921a46d42dfb855565783af85",
+            "textRange": {
+                "startLine": 371,
+                "endLine": 371,
+                "startOffset": 24,
+                "endOffset": 88
+            },
+            "flows": [{
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 371,
+                            "endLine": 371,
+                            "startOffset": 24,
+                            "endOffset": 88
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 477,
+                            "endLine": 477,
+                            "startOffset": 24,
+                            "endOffset": 88
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 488,
+                            "endLine": 488,
+                            "startOffset": 24,
+                            "endOffset": 88
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 497,
+                            "endLine": 497,
+                            "startOffset": 24,
+                            "endOffset": 88
+                        },
+                        "msg": "Duplication"
+                    }]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal \"--------------------------------------------------------------\" 4 times.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "design"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t_",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 373,
+            "hash": "e2e1b09722e1f8ba1bbc2edaaa0a8e69",
+            "textRange": {
+                "startLine": 373,
+                "endLine": 373,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uA",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 378,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 378,
+                "endLine": 378,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mjsax@informatik.hu-berlin.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-07-01T17:56:41+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uB",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 379,
+            "hash": "414cfd6dcd96376356a1e5c7dd21ade5",
+            "textRange": {
+                "startLine": 379,
+                "endLine": 379,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mjsax@informatik.hu-berlin.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-07-01T17:56:41+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uC",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 381,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 381,
+                "endLine": 381,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mjsax@informatik.hu-berlin.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-07-01T17:56:41+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uD",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 382,
+            "hash": "5d0a27933d07e77c048e89e02447a246",
+            "textRange": {
+                "startLine": 382,
+                "endLine": 382,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mjsax@informatik.hu-berlin.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-07-01T17:56:41+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5tx",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 396,
+            "hash": "24273a8d3bd4e7e2330213d9ada44e6c",
+            "textRange": {
+                "startLine": 396,
+                "endLine": 396,
+                "startOffset": 46,
+                "endOffset": 55
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-12T02:40:06+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uE",
+            "rule": "java:S3776",
+            "severity": "CRITICAL",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 433,
+            "hash": "bb2c123eb73faad90347136b49c60a53",
+            "textRange": {
+                "startLine": 433,
+                "endLine": 433,
+                "startOffset": 29,
+                "endOffset": 37
+            },
+            "flows": [{
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 447,
+                            "endLine": 447,
+                            "startOffset": 10,
+                            "endOffset": 15
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 459,
+                            "endLine": 459,
+                            "startOffset": 20,
+                            "endOffset": 22
+                        },
+                        "msg": "+2 (incl 1 for nesting)"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 460,
+                            "endLine": 460,
+                            "startOffset": 28,
+                            "endOffset": 30
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 462,
+                            "endLine": 462,
+                            "startOffset": 27,
+                            "endOffset": 29
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 464,
+                            "endLine": 464,
+                            "startOffset": 22,
+                            "endOffset": 26
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 469,
+                            "endLine": 469,
+                            "startOffset": 8,
+                            "endOffset": 10
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 469,
+                            "endLine": 469,
+                            "startOffset": 24,
+                            "endOffset": 26
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 470,
+                            "endLine": 470,
+                            "startOffset": 12,
+                            "endOffset": 14
+                        },
+                        "msg": "+2 (incl 1 for nesting)"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 472,
+                            "endLine": 472,
+                            "startOffset": 14,
+                            "endOffset": 18
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 480,
+                            "endLine": 480,
+                            "startOffset": 8,
+                            "endOffset": 10
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 480,
+                            "endLine": 480,
+                            "startOffset": 26,
+                            "endOffset": 28
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 481,
+                            "endLine": 481,
+                            "startOffset": 12,
+                            "endOffset": 14
+                        },
+                        "msg": "+2 (incl 1 for nesting)"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 483,
+                            "endLine": 483,
+                            "startOffset": 14,
+                            "endOffset": 18
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 491,
+                            "endLine": 491,
+                            "startOffset": 8,
+                            "endOffset": 10
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 492,
+                            "endLine": 492,
+                            "startOffset": 12,
+                            "endOffset": 14
+                        },
+                        "msg": "+2 (incl 1 for nesting)"
+                    }]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+            "effort": "9min",
+            "debt": "9min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "brain-overload"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uF",
+            "rule": "java:S119",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 433,
+            "hash": "bb2c123eb73faad90347136b49c60a53",
+            "textRange": {
+                "startLine": 433,
+                "endLine": 433,
+                "startOffset": 13,
+                "endOffset": 22
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kkloudas@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-11-01T01:42:44+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5tt",
+            "rule": "java:S1192",
+            "severity": "CRITICAL",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 444,
+            "hash": "a5f90b15930dc3280d4c6b3a9d32043d",
+            "textRange": {
+                "startLine": 444,
+                "endLine": 444,
+                "startOffset": 25,
+                "endOffset": 50
+            },
+            "flows": [{
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 444,
+                            "endLine": 444,
+                            "startOffset": 25,
+                            "endOffset": 50
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 767,
+                            "endLine": 767,
+                            "startOffset": 21,
+                            "endOffset": 46
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 795,
+                            "endLine": 795,
+                            "startOffset": 21,
+                            "endOffset": 46
+                        },
+                        "msg": "Duplication"
+                    }]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal \"Waiting for response...\" 3 times.",
+            "effort": "8min",
+            "debt": "8min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "design"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-11T22:59:43+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t4",
+            "rule": "java:S1155",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 470,
+            "hash": "5d3d4f8f4908d1dbd27708861cc79f7f",
+            "textRange": {
+                "startLine": 470,
+                "endLine": 470,
+                "startOffset": 16,
+                "endOffset": 39
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use isEmpty() to check whether the collection is empty or not.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "fabian.hueske@tu-berlin.de",
+            "tags": [
+                "clumsy"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2011-04-04T16:50:48+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uG",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 471,
+            "hash": "4e51af83c349fb31b040f06e35d8ff69",
+            "textRange": {
+                "startLine": 471,
+                "endLine": 471,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "fabian.hueske@tu-berlin.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2011-04-04T16:50:48+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uH",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 473,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 473,
+                "endLine": 473,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uI",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 476,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 476,
+                "endLine": 476,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t5",
+            "rule": "java:S1155",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 481,
+            "hash": "348f426d7341d1be508908ef9c992626",
+            "textRange": {
+                "startLine": 481,
+                "endLine": 481,
+                "startOffset": 16,
+                "endOffset": 41
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use isEmpty() to check whether the collection is empty or not.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "fabian.hueske@tu-berlin.de",
+            "tags": [
+                "clumsy"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2011-04-03T02:54:28+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uJ",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 482,
+            "hash": "1207fdebd1175348623c563d5c0c6514",
+            "textRange": {
+                "startLine": 482,
+                "endLine": 482,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "fabian.hueske@tu-berlin.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2011-04-03T02:54:28+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uK",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 484,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 484,
+                "endLine": 484,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uL",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 487,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 487,
+                "endLine": 487,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5tu",
+            "rule": "java:S1066",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 492,
+            "hash": "4a98730cc00f2be774b2b5bc197063ec",
+            "textRange": {
+                "startLine": 492,
+                "endLine": 492,
+                "startOffset": 12,
+                "endOffset": 14
+            },
+            "flows": [{
+                "locations": [{
+                    "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                    "textRange": {
+                        "startLine": 491,
+                        "endLine": 491,
+                        "startOffset": 8,
+                        "endOffset": 10
+                    }
+                }]
+            }],
+            "status": "OPEN",
+            "message": "Merge this if statement with the enclosing one.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "walter_ddr@hotmail.com",
+            "tags": [
+                "clumsy"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-06-12T16:34:38+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t6",
+            "rule": "java:S1155",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 492,
+            "hash": "4a98730cc00f2be774b2b5bc197063ec",
+            "textRange": {
+                "startLine": 492,
+                "endLine": 492,
+                "startOffset": 16,
+                "endOffset": 42
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Use isEmpty() to check whether the collection is empty or not.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "walter_ddr@hotmail.com",
+            "tags": [
+                "clumsy"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-06-12T16:34:38+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uM",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 493,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 493,
+                "endLine": 493,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uN",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 496,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 496,
+                "endLine": 496,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uO",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 520,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 520,
+                "endLine": 520,
+                "startOffset": 32,
+                "endOffset": 42
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ty",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 536,
+            "hash": "902a7ed07bd118b5b0122b447fc23f3f",
+            "textRange": {
+                "startLine": 536,
+                "endLine": 536,
+                "startOffset": 46,
+                "endOffset": 55
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-12T02:40:06+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uP",
+            "rule": "java:S3776",
+            "severity": "CRITICAL",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 593,
+            "hash": "97d810b0d81d2ea1174291aeaf15be4c",
+            "textRange": {
+                "startLine": 593,
+                "endLine": 593,
+                "startOffset": 19,
+                "endOffset": 25
+            },
+            "flows": [{
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 602,
+                            "endLine": 602,
+                            "startOffset": 8,
+                            "endOffset": 10
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 611,
+                            "endLine": 611,
+                            "startOffset": 8,
+                            "endOffset": 10
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 619,
+                            "endLine": 619,
+                            "startOffset": 12,
+                            "endOffset": 14
+                        },
+                        "msg": "+2 (incl 1 for nesting)"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 622,
+                            "endLine": 622,
+                            "startOffset": 14,
+                            "endOffset": 18
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 627,
+                            "endLine": 627,
+                            "startOffset": 12,
+                            "endOffset": 14
+                        },
+                        "msg": "+2 (incl 1 for nesting)"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 632,
+                            "endLine": 632,
+                            "startOffset": 14,
+                            "endOffset": 18
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 647,
+                            "endLine": 647,
+                            "startOffset": 26,
+                            "endOffset": 31
+                        },
+                        "msg": "+3 (incl 2 for nesting)"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 657,
+                            "endLine": 657,
+                            "startOffset": 10,
+                            "endOffset": 14
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 660,
+                            "endLine": 660,
+                            "startOffset": 12,
+                            "endOffset": 14
+                        },
+                        "msg": "+2 (incl 1 for nesting)"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 662,
+                            "endLine": 662,
+                            "startOffset": 14,
+                            "endOffset": 18
+                        },
+                        "msg": "+1"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 676,
+                            "endLine": 676,
+                            "startOffset": 26,
+                            "endOffset": 31
+                        },
+                        "msg": "+3 (incl 2 for nesting)"
+                    }]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+            "effort": "8min",
+            "debt": "8min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "brain-overload"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-12T22:14:04+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5tz",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 593,
+            "hash": "97d810b0d81d2ea1174291aeaf15be4c",
+            "textRange": {
+                "startLine": 593,
+                "endLine": 593,
+                "startOffset": 48,
+                "endOffset": 57
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-12T02:40:06+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5tr",
+            "rule": "java:S1192",
+            "severity": "CRITICAL",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 629,
+            "hash": "6100f6efb1e9fc7f8e596056977bcfd0",
+            "textRange": {
+                "startLine": 629,
+                "endLine": 629,
+                "startOffset": 24,
+                "endOffset": 41
+            },
+            "flows": [{
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 629,
+                            "endLine": 629,
+                            "startOffset": 24,
+                            "endOffset": 41
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 634,
+                            "endLine": 634,
+                            "startOffset": 24,
+                            "endOffset": 41
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+                        "textRange": {
+                            "startLine": 666,
+                            "endLine": 666,
+                            "startOffset": 25,
+                            "endOffset": 42
+                        },
+                        "msg": "Duplication"
+                    }]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal \"Cancelling job \" 3 times.",
+            "effort": "8min",
+            "debt": "8min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "design"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t0",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 698,
+            "hash": "d429d251215abc2cc89cd6bfd0436d65",
+            "textRange": {
+                "startLine": 698,
+                "endLine": 698,
+                "startOffset": 51,
+                "endOffset": 60
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-12T02:40:06+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uQ",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 885,
+            "hash": "18578e6e16b6817e6e69e4d0c0c186db",
+            "textRange": {
+                "startLine": 885,
+                "endLine": 885,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "max@posteo.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-02-12T22:21:09+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uR",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 886,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 886,
+                "endLine": 886,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "max@posteo.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-02-12T22:21:09+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uS",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 887,
+            "hash": "27d4f11ba160d7a30a9fda38bede7415",
+            "textRange": {
+                "startLine": 887,
+                "endLine": 887,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uT",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 899,
+            "hash": "f89b7db6af5b1c30b3f82700ff04bf35",
+            "textRange": {
+                "startLine": 899,
+                "endLine": 899,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "code@greghogan.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2016-10-24T21:33:54+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uU",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 909,
+            "hash": "9a5ae8f1acf4aca11955dac73c7f98b9",
+            "textRange": {
+                "startLine": 909,
+                "endLine": 909,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "code@greghogan.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2016-10-24T21:33:54+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uV",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 910,
+            "hash": "1429fa348baa29f6e893b0d31a35d54d",
+            "textRange": {
+                "startLine": 910,
+                "endLine": 910,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uW",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 925,
+            "hash": "9a5ae8f1acf4aca11955dac73c7f98b9",
+            "textRange": {
+                "startLine": 925,
+                "endLine": 925,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mxm@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-11-13T23:03:04+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uX",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 926,
+            "hash": "28d6984b54073f134f69209fdea7463e",
+            "textRange": {
+                "startLine": 926,
+                "endLine": 926,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mxm@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-11-13T23:03:04+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uY",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 927,
+            "hash": "bd7008e2db2b026bec2bcd3ed5618ebf",
+            "textRange": {
+                "startLine": 927,
+                "endLine": 927,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mxm@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-11-13T23:03:04+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uZ",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 928,
+            "hash": "9a5ae8f1acf4aca11955dac73c7f98b9",
+            "textRange": {
+                "startLine": 928,
+                "endLine": 928,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "mxm@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-11-13T23:03:04+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ua",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 931,
+            "hash": "0a51570694ceb7d47ff6e3b748a1f553",
+            "textRange": {
+                "startLine": 931,
+                "endLine": 931,
+                "startOffset": 12,
+                "endOffset": 22
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sachingoel0101@gmail.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-11-13T22:28:38+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ub",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 934,
+            "hash": "b7d98d695b2c8164e723edc7dab12e8d",
+            "textRange": {
+                "startLine": 934,
+                "endLine": 934,
+                "startOffset": 16,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "trohrmann@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-01-12T22:14:04+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ud",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 947,
+            "hash": "2bb11a7f245c041b933b37ddcc8d0491",
+            "textRange": {
+                "startLine": 947,
+                "endLine": 947,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ue",
+            "rule": "java:S119",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 978,
+            "hash": "d36e90b48790ebb0758b2bf8274aea8e",
+            "textRange": {
+                "startLine": 978,
+                "endLine": 978,
+                "startOffset": 13,
+                "endOffset": 22
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "convention"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uf",
+            "rule": "java:S119",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1014,
+            "hash": "f217c81caed51a41f2e56bbf40d56ee8",
+            "textRange": {
+                "startLine": 1014,
+                "endLine": 1014,
+                "startOffset": 36,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kkloudas@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2019-11-01T01:42:44+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ug",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1040,
+            "hash": "ece6a8861d0f4426c3f07e555374ce9e",
+            "textRange": {
+                "startLine": 1040,
+                "endLine": 1040,
+                "startOffset": 12,
+                "endOffset": 22
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "max@posteo.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-02-12T22:21:09+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uh",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1082,
+            "hash": "ff45ba49bc31c824e2d90b67688b58db",
+            "textRange": {
+                "startLine": 1082,
+                "endLine": 1082,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sachingoel0101@gmail.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-12-13T02:24:47+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ui",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1083,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 1083,
+                "endLine": 1083,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uj",
+            "rule": "java:S3457",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1089,
+            "hash": "a2969df7648d7f33f4b75e0187674e21",
+            "textRange": {
+                "startLine": 1089,
+                "endLine": 1089,
+                "startOffset": 20,
+                "endOffset": 80
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "%n should be used in place of \\n to produce the platform-specific line separator.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "max@posteo.de",
+            "tags": [
+                "cert",
+                "confusing"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-02-12T22:21:09+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uk",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1089,
+            "hash": "a2969df7648d7f33f4b75e0187674e21",
+            "textRange": {
+                "startLine": 1089,
+                "endLine": 1089,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "max@posteo.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-02-12T22:21:09+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ul",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1090,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 1090,
+                "endLine": 1090,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "max@posteo.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-02-12T22:21:09+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5um",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1091,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 1091,
+                "endLine": 1091,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5un",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1093,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 1093,
+                "endLine": 1093,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "max@posteo.de",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-02-12T22:21:09+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uo",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1094,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 1094,
+                "endLine": 1094,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5up",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1096,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 1096,
+                "endLine": 1096,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sachingoel0101@gmail.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-12-13T02:24:47+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5uq",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1097,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 1097,
+                "endLine": 1097,
+                "startOffset": 20,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5ur",
+            "rule": "java:S1181",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1133,
+            "hash": "9d94a2e493b16898aa835667125a5484",
+            "textRange": {
+                "startLine": 1133,
+                "endLine": 1133,
+                "startOffset": 17,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Catch Exception instead of Throwable.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "cppcoreguidelines",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t1",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1154,
+            "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+            "textRange": {
+                "startLine": 1154,
+                "endLine": 1154,
+                "startOffset": 26,
+                "endOffset": 42
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t2",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1166,
+            "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+            "textRange": {
+                "startLine": 1166,
+                "endLine": 1166,
+                "startOffset": 22,
+                "endOffset": 38
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJfrkmD2-C_JU5t3",
+            "rule": "java:S112",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "project": "flink",
+            "line": 1251,
+            "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+            "textRange": {
+                "startLine": 1251,
+                "endLine": 1251,
+                "startOffset": 19,
+                "endOffset": 28
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Define and throw a dedicated exception instead of using a generic one.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "cert",
+                "cwe",
+                "error-handling"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vD",
+            "rule": "java:S1118",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 40,
+            "hash": "745298204c6d7e73819301ecae97ae9c",
+            "textRange": {
+                "startLine": 40,
+                "endLine": 40,
+                "startOffset": 13,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a private constructor to hide the implicit public one.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "design"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vF",
+            "rule": "java:S1123",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 92,
+            "hash": "b1eaf8cb50dcb99ab0f059111ebf4efa",
+            "textRange": {
+                "startLine": 92,
+                "endLine": 92,
+                "startOffset": 4,
+                "endOffset": 15
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "nico@data-artisans.com",
+            "tags": [
+                "bad-practice",
+                "obsolete"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-04-14T00:38:26+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vE",
+            "rule": "java:S1133",
+            "severity": "INFO",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 93,
+            "hash": "648b34b42e25d52c746a652b3c1b714d",
+            "textRange": {
+                "startLine": 93,
+                "endLine": 93,
+                "startOffset": 31,
+                "endOffset": 51
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not forget to remove this deprecated code someday.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "obsolete"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vC",
+            "rule": "java:S1192",
+            "severity": "CRITICAL",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 167,
+            "hash": "b5b74942f4e59b592ee29956bc7f94af",
+            "textRange": {
+                "startLine": 167,
+                "endLine": 167,
+                "startOffset": 20,
+                "endOffset": 35
+            },
+            "flows": [{
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+                        "textRange": {
+                            "startLine": 167,
+                            "endLine": 167,
+                            "startOffset": 20,
+                            "endOffset": 35
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+                        "textRange": {
+                            "startLine": 277,
+                            "endLine": 277,
+                            "startOffset": 41,
+                            "endOffset": 56
+                        },
+                        "msg": "Duplication"
+                    }]
+                },
+                {
+                    "locations": [{
+                        "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+                        "textRange": {
+                            "startLine": 289,
+                            "endLine": 289,
+                            "startOffset": 44,
+                            "endOffset": 59
+                        },
+                        "msg": "Duplication"
+                    }]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal \"savepointPath\" 3 times.",
+            "effort": "8min",
+            "debt": "8min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "design"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vG",
+            "rule": "java:S1874",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 267,
+            "hash": "6f88cb6e03f64315da5dccf37cb38e5c",
+            "textRange": {
+                "startLine": 267,
+                "endLine": 267,
+                "startOffset": 8,
+                "endOffset": 28
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this use of \"YARN_DETACHED_OPTION\"; it is deprecated.",
+            "effort": "15min",
+            "debt": "15min",
+            "author": "nico@data-artisans.com",
+            "tags": [
+                "cert",
+                "cwe",
+                "obsolete"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-04-14T00:38:26+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vH",
+            "rule": "java:S1874",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 327,
+            "hash": "dd0a7f71767a28b08602bea50fd31c9c",
+            "textRange": {
+                "startLine": 327,
+                "endLine": 327,
+                "startOffset": 26,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this use of \"YARN_DETACHED_OPTION\"; it is deprecated.",
+            "effort": "15min",
+            "debt": "15min",
+            "author": "nico@data-artisans.com",
+            "tags": [
+                "cert",
+                "cwe",
+                "obsolete"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2018-04-14T00:38:26+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vB",
+            "rule": "java:S4165",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 354,
+            "hash": "4872965bbf4c98a9a84c7ba8747839f0",
+            "textRange": {
+                "startLine": 354,
+                "endLine": 354,
+                "startOffset": 8,
+                "endOffset": 52
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this useless assignment; \"options\" already holds the assigned value along all execution paths.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "mxm@apache.org",
+            "tags": [
+                "redundant"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2016-06-17T15:37:58+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vI",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 427,
+            "hash": "028bfaa3d8f7aa3cb957257ea61a58f9",
+            "textRange": {
+                "startLine": 427,
+                "endLine": 427,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vJ",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 428,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 428,
+                "endLine": 428,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vK",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 429,
+            "hash": "fe740bcbad1ae36ff2e1a540efa4d045",
+            "textRange": {
+                "startLine": 429,
+                "endLine": 429,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vL",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 439,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 439,
+                "endLine": 439,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vM",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 447,
+            "hash": "ee8359bdd7723dce4a6ced10a265e985",
+            "textRange": {
+                "startLine": 447,
+                "endLine": 447,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vN",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 448,
+            "hash": "5e28e691eeb57a6bf3c03d1b634e396f",
+            "textRange": {
+                "startLine": 448,
+                "endLine": 448,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vO",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 454,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 454,
+                "endLine": 454,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vP",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 463,
+            "hash": "de480a57b5f96c1c9bfb2f1e3b812c2c",
+            "textRange": {
+                "startLine": 463,
+                "endLine": 463,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kkloudas@gmail.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-01T17:39:17+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vQ",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 464,
+            "hash": "42be2ef5d8602881a0e82c4b91282080",
+            "textRange": {
+                "startLine": 464,
+                "endLine": 464,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "aljoscha@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-01T17:39:39+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vR",
+            "rule": "java:S1611",
+            "severity": "MINOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 471,
+            "hash": "9b1a5ac8d7c663d6c268139e575d54a2",
+            "textRange": {
+                "startLine": 471,
+                "endLine": 471,
+                "startOffset": 32,
+                "endOffset": 33
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove the parentheses around the \"cli\" parameter",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "aljoscha@apache.org",
+            "tags": [
+                "java8"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-01T17:39:39+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vS",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 475,
+            "hash": "d2f808bc8664ce2ebdfc6aabe957104d",
+            "textRange": {
+                "startLine": 475,
+                "endLine": 475,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "kkloudas@gmail.com",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-01T17:39:17+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vT",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 483,
+            "hash": "232847adea2264941418daeb863267ac",
+            "textRange": {
+                "startLine": 483,
+                "endLine": 483,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "dev@flink.apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2020-12-28T20:35:13+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        },
+        {
+            "key": "AXiyPJj-kmD2-C_JU5vU",
+            "rule": "java:S106",
+            "severity": "MAJOR",
+            "component": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "project": "flink",
+            "line": 485,
+            "hash": "828188be5f6170945d17afde751058ff",
+            "textRange": {
+                "startLine": 485,
+                "endLine": 485,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "sewen@apache.org",
+            "tags": [
+                "bad-practice",
+                "cert",
+                "owasp-a3"
+            ],
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "comments": [],
+            "creationDate": "2015-03-05T00:20:36+0700",
+            "updateDate": "2021-04-08T11:39:19+0700",
+            "type": "CODE_SMELL",
+            "scope": "MAIN"
+        }
+    ],
+    "components": [{
+            "key": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "uuid": "AXiyNwYckmD2-C_JUzWt",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "AbstractCustomCommandLine.java",
+            "longName": "flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java",
+            "path": "flink-clients/src/main/java/org/apache/flink/client/cli/AbstractCustomCommandLine.java"
+        },
+        {
+            "key": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/ApplicationDeployer.java",
+            "uuid": "AXiyNwYckmD2-C_JUzWp",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ApplicationDeployer.java",
+            "longName": "flink-clients/src/main/java/org/apache/flink/client/cli/ApplicationDeployer.java",
+            "path": "flink-clients/src/main/java/org/apache/flink/client/cli/ApplicationDeployer.java"
+        },
+        {
+            "key": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "uuid": "AXiyNwYckmD2-C_JUzWk",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CliFrontend.java",
+            "longName": "flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java",
+            "path": "flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontend.java"
+        },
+        {
+            "key": "flink",
+            "uuid": "AXimJpe7_GqG5ghR0XzR",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "Flink :",
+            "longName": "Flink :"
+        },
+        {
+            "key": "flink:flink-clients/src/main/java/org/apache/flink/client/ClientUtils.java",
+            "uuid": "AXiyNwYckmD2-C_JUzWM",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ClientUtils.java",
+            "longName": "flink-clients/src/main/java/org/apache/flink/client/ClientUtils.java",
+            "path": "flink-clients/src/main/java/org/apache/flink/client/ClientUtils.java"
+        },
+        {
+            "key": "flink:flink-clients/src/main/java/org/apache/flink/client/FlinkPipelineTranslationUtil.java",
+            "uuid": "AXiyNwYdkmD2-C_JUzW2",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "FlinkPipelineTranslationUtil.java",
+            "longName": "flink-clients/src/main/java/org/apache/flink/client/FlinkPipelineTranslationUtil.java",
+            "path": "flink-clients/src/main/java/org/apache/flink/client/FlinkPipelineTranslationUtil.java"
+        },
+        {
+            "key": "flink:flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "uuid": "AXiyNwYckmD2-C_JUzWz",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "CliFrontendParser.java",
+            "longName": "flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java",
+            "path": "flink-clients/src/main/java/org/apache/flink/client/cli/CliFrontendParser.java"
+        },
+        {
+            "key": "flink:flink-clients/src/main/java/org/apache/flink/client/StreamGraphTranslator.java",
+            "uuid": "AXiyNwYdkmD2-C_JUzW5",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "StreamGraphTranslator.java",
+            "longName": "flink-clients/src/main/java/org/apache/flink/client/StreamGraphTranslator.java",
+            "path": "flink-clients/src/main/java/org/apache/flink/client/StreamGraphTranslator.java"
+        }
+    ],
+    "rules": [{
+            "key": "java:S4165",
+            "name": "Assignments should not be redundant",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1192",
+            "name": "String literals should not be duplicated",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S119",
+            "name": "Type parameter names should comply with a naming convention",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S106",
+            "name": "Standard outputs should not be used directly to log anything",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S112",
+            "name": "Generic exceptions should never be thrown",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1611",
+            "name": "Parentheses should be removed from a single lambda input parameter when its type is inferred",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1874",
+            "name": "\"@Deprecated\" code should not be used",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1155",
+            "name": "Collection.isEmpty() should be used to test for emptiness",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S3457",
+            "name": "Printf-style format strings should be used correctly",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1181",
+            "name": "Throwable and Error should not be caught",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1066",
+            "name": "Collapsible \"if\" statements should be merged",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1068",
+            "name": "Unused \"private\" fields should be removed",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1123",
+            "name": "Deprecated elements should have both the annotation and the Javadoc tag",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S2326",
+            "name": "Unused type parameters should be removed",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1118",
+            "name": "Utility classes should not have public constructors",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S3776",
+            "name": "Cognitive Complexity of methods should not be too high",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        },
+        {
+            "key": "java:S1133",
+            "name": "Deprecated code should be removed",
+            "lang": "java",
+            "status": "READY",
+            "langName": "Java"
+        }
+    ],
+    "users": [{
+        "login": "admin",
+        "name": "Administrator",
+        "active": true
+    }],
+    "languages": [{
+            "key": "py",
+            "name": "Python"
+        },
+        {
+            "key": "css",
+            "name": "CSS"
+        },
+        {
+            "key": "go",
+            "name": "Go"
+        },
+        {
+            "key": "kotlin",
+            "name": "Kotlin"
+        },
+        {
+            "key": "js",
+            "name": "JavaScript"
+        },
+        {
+            "key": "ts",
+            "name": "TypeScript"
+        },
+        {
+            "key": "ruby",
+            "name": "Ruby"
+        },
+        {
+            "key": "scala",
+            "name": "Scala"
+        },
+        {
+            "key": "cs",
+            "name": "C#"
+        },
+        {
+            "key": "java",
+            "name": "Java"
+        },
+        {
+            "key": "web",
+            "name": "HTML"
+        },
+        {
+            "key": "jsp",
+            "name": "JSP"
+        },
+        {
+            "key": "flex",
+            "name": "Flex"
+        },
+        {
+            "key": "xml",
+            "name": "XML"
+        },
+        {
+            "key": "php",
+            "name": "PHP"
+        },
+        {
+            "key": "vbnet",
+            "name": "VB.NET"
+        }
+    ],
+    "facets": [{
+            "property": "severities",
+            "values": [{
+                    "val": "MINOR",
+                    "count": 9609
+                },
+                {
+                    "val": "MAJOR",
+                    "count": 8563
+                },
+                {
+                    "val": "CRITICAL",
+                    "count": 3229
+                },
+                {
+                    "val": "INFO",
+                    "count": 1164
+                },
+                {
+                    "val": "BLOCKER",
+                    "count": 87
+                }
+            ]
+        },
+        {
+            "property": "types",
+            "values": [{
+                    "val": "CODE_SMELL",
+                    "count": 22652
+                },
+                {
+                    "val": "BUG",
+                    "count": 844
+                },
+                {
+                    "val": "VULNERABILITY",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "property": "owaspTop10",
+            "values": []
+        },
+        {
+            "property": "sansTop25",
+            "values": []
+        },
+        {
+            "property": "sonarsourceSecurity",
+            "values": []
+        }
+    ]
+}

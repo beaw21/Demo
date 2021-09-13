@@ -1,0 +1,1621 @@
+{
+    "sources": [{
+            "line": 1,
+            "code": "<span class=\"cd\">/*</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 2,
+            "code": "<span class=\"cd\"> * Licensed to the Apache Software Foundation (ASF) under one</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 3,
+            "code": "<span class=\"cd\"> * or more contributor license agreements.  See the NOTICE file</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 4,
+            "code": "<span class=\"cd\"> * distributed with this work for additional information</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 5,
+            "code": "<span class=\"cd\"> * regarding copyright ownership.  The ASF licenses this file</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 6,
+            "code": "<span class=\"cd\"> * to you under the Apache License, Version 2.0 (the</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 7,
+            "code": "<span class=\"cd\"> * \"License\"); you may not use this file except in compliance</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 8,
+            "code": "<span class=\"cd\"> * with the License.  You may obtain a copy of the License at</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 9,
+            "code": "<span class=\"cd\"> *</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 10,
+            "code": "<span class=\"cd\"> *     http://www.apache.org/licenses/LICENSE-2.0</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 11,
+            "code": "<span class=\"cd\"> *</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 12,
+            "code": "<span class=\"cd\"> * Unless required by applicable law or agreed to in writing, software</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 13,
+            "code": "<span class=\"cd\"> * distributed under the License is distributed on an \"AS IS\" BASIS,</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 14,
+            "code": "<span class=\"cd\"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 15,
+            "code": "<span class=\"cd\"> * See the License for the specific language governing permissions and</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 16,
+            "code": "<span class=\"cd\"> * limitations under the License.</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 17,
+            "code": "<span class=\"cd\"> */</span>",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 18,
+            "code": "",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 19,
+            "code": "<span class=\"k\">package</span> org.apache.flink.client;",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 20,
+            "code": "",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 21,
+            "code": "<span class=\"k\">import</span> org.apache.flink.api.common.<span class=\"sym-1 sym\">JobStatus</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 22,
+            "code": "<span class=\"k\">import</span> org.apache.flink.client.program.<span class=\"sym-2 sym\">ContextEnvironment</span>;",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 23,
+            "code": "<span class=\"k\">import</span> org.apache.flink.client.program.<span class=\"sym-3 sym\">PackagedProgram</span>;",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 24,
+            "code": "<span class=\"k\">import</span> org.apache.flink.client.program.<span class=\"sym-4 sym\">ProgramInvocationException</span>;",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 25,
+            "code": "<span class=\"k\">import</span> org.apache.flink.client.program.<span class=\"sym-5 sym\">StreamContextEnvironment</span>;",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 26,
+            "code": "<span class=\"k\">import</span> org.apache.flink.client.program.rest.retry.<span class=\"sym-6 sym\">ExponentialWaitStrategy</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 27,
+            "code": "<span class=\"k\">import</span> org.apache.flink.client.program.rest.retry.<span class=\"sym-7 sym\">WaitStrategy</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 28,
+            "code": "<span class=\"k\">import</span> org.apache.flink.configuration.<span class=\"sym-8 sym\">Configuration</span>;",
+            "scmRevision": "03c125c41f12c1f27fe61a320c5a04af200e4ec0",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-14T16:47:36+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 29,
+            "code": "<span class=\"k\">import</span> org.apache.flink.configuration.<span class=\"sym-9 sym\">CoreOptions</span>;",
+            "scmRevision": "ae553ac1bc5697eba68fa98a2bb6c434287565b3",
+            "scmAuthor": "paullin3280@gmail.com",
+            "scmDate": "2019-11-15T15:56:12+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 30,
+            "code": "<span class=\"k\">import</span> org.apache.flink.configuration.<span class=\"sym-10 sym\">DeploymentOptions</span>;",
+            "scmRevision": "54e44b88f49411cd3dee2be95846448c2c9e2b38",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-21T19:56:38+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 31,
+            "code": "<span class=\"k\">import</span> org.apache.flink.core.execution.<span class=\"sym-11 sym\">PipelineExecutorServiceLoader</span>;",
+            "scmRevision": "d82b6042626a6d5119861438e498292541faa20d",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-01-13T19:59:55+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 32,
+            "code": "<span class=\"k\">import</span> org.apache.flink.runtime.client.<span class=\"sym-12 sym\">JobInitializationException</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 33,
+            "code": "<span class=\"k\">import</span> org.apache.flink.runtime.execution.librarycache.<span class=\"sym-13 sym\">FlinkUserCodeClassLoaders</span>;",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 34,
+            "code": "<span class=\"k\">import</span> org.apache.flink.runtime.jobmaster.<span class=\"sym-14 sym\">JobResult</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 35,
+            "code": "<span class=\"k\">import</span> org.apache.flink.util.<span class=\"sym-15 sym\">ExceptionUtils</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 36,
+            "code": "<span class=\"k\">import</span> org.apache.flink.util.<span class=\"sym-16 sym\">SerializedThrowable</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 37,
+            "code": "<span class=\"k\">import</span> org.apache.flink.util.function.<span class=\"sym-17 sym\">SupplierWithException</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 38,
+            "code": "",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 39,
+            "code": "<span class=\"k\">import</span> org.slf4j.<span class=\"sym-18 sym\">Logger</span>;",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 40,
+            "code": "<span class=\"k\">import</span> org.slf4j.<span class=\"sym-19 sym\">LoggerFactory</span>;",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 41,
+            "code": "",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 42,
+            "code": "<span class=\"k\">import</span> java.net.<span class=\"sym-20 sym\">URL</span>;",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 43,
+            "code": "<span class=\"k\">import</span> java.net.<span class=\"sym-21 sym\">URLClassLoader</span>;",
+            "scmRevision": "30e82697a3f25a638462d1af9732b6c35132def2",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 44,
+            "code": "<span class=\"k\">import</span> java.util.<span class=\"sym-22 sym\">List</span>;",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 45,
+            "code": "<span class=\"k\">import</span> java.util.<span class=\"sym-23 sym\">Optional</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 46,
+            "code": "",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 47,
+            "code": "<span class=\"k\">import</span> <span class=\"k\">static</span> org.apache.flink.util.FlinkUserCodeClassLoader.<span class=\"sym-24 sym\">NOOP_EXCEPTION_HANDLER</span>;",
+            "scmRevision": "bac55c175b0d3a76395880d7aa2e5ae6484364fa",
+            "scmAuthor": "azagrebin@apache.org",
+            "scmDate": "2020-06-10T00:36:10+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 48,
+            "code": "<span class=\"k\">import</span> <span class=\"k\">static</span> org.apache.flink.util.Preconditions.<span class=\"sym-25 sym\">checkNotNull</span>;",
+            "scmRevision": "bf5235e340543b9c4551d2131e8a405bd1e9e0c0",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-11-01T13:51:28+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 49,
+            "code": "",
+            "scmRevision": "bf5235e340543b9c4551d2131e8a405bd1e9e0c0",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-11-01T13:51:28+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 50,
+            "code": "<span class=\"j\">/** Utility functions for Flink client. */</span>",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 51,
+            "code": "<span class=\"k\">public</span> <span class=\"k\">enum</span> <span class=\"sym-26 sym\">ClientUtils</span> {",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 52,
+            "code": "    ;",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 53,
+            "code": "",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 54,
+            "code": "    <span class=\"k\">private</span> <span class=\"k\">static</span> <span class=\"k\">final</span> <span class=\"sym-18 sym\">Logger</span> <span class=\"sym-27 sym\">LOG</span> = <span class=\"sym-19 sym\">LoggerFactory</span>.getLogger(<span class=\"sym-26 sym\">ClientUtils</span>.<span class=\"k\">class</span>);",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 55,
+            "code": "",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 56,
+            "code": "    <span class=\"k\">public</span> <span class=\"k\">static</span> <span class=\"sym-21 sym\">URLClassLoader</span> <span class=\"sym-28 sym\">buildUserCodeClassLoader</span>(",
+            "scmRevision": "30e82697a3f25a638462d1af9732b6c35132def2",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 57,
+            "code": "            <span class=\"sym-22 sym\">List</span>&lt;<span class=\"sym-20 sym\">URL</span>&gt; <span class=\"sym-29 sym\">jars</span>, <span class=\"sym-22 sym\">List</span>&lt;<span class=\"sym-20 sym\">URL</span>&gt; <span class=\"sym-30 sym\">classpaths</span>, ClassLoader <span class=\"sym-31 sym\">parent</span>, <span class=\"sym-8 sym\">Configuration</span> <span class=\"sym-32 sym\">configuration</span>) {",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 58,
+            "code": "        <span class=\"sym-20 sym\">URL</span>[] <span class=\"sym-33 sym\">urls</span> = <span class=\"k\">new</span> <span class=\"sym-20 sym\">URL</span>[<span class=\"sym-29 sym\">jars</span>.size() + <span class=\"sym-30 sym\">classpaths</span>.size()];",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 59,
+            "code": "        <span class=\"k\">for</span> (<span class=\"k\">int</span> <span class=\"sym-34 sym\">i</span> = <span class=\"c\">0</span>; <span class=\"sym-34 sym\">i</span> &lt; <span class=\"sym-29 sym\">jars</span>.size(); <span class=\"sym-34 sym\">i</span>++) {",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 60,
+            "code": "            <span class=\"sym-33 sym\">urls</span>[<span class=\"sym-34 sym\">i</span>] = <span class=\"sym-29 sym\">jars</span>.get(<span class=\"sym-34 sym\">i</span>);",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 61,
+            "code": "        }",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 62,
+            "code": "        <span class=\"k\">for</span> (<span class=\"k\">int</span> <span class=\"sym-35 sym\">i</span> = <span class=\"c\">0</span>; <span class=\"sym-35 sym\">i</span> &lt; <span class=\"sym-30 sym\">classpaths</span>.size(); <span class=\"sym-35 sym\">i</span>++) {",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 63,
+            "code": "            <span class=\"sym-33 sym\">urls</span>[<span class=\"sym-35 sym\">i</span> + <span class=\"sym-29 sym\">jars</span>.size()] = <span class=\"sym-30 sym\">classpaths</span>.get(<span class=\"sym-35 sym\">i</span>);",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 64,
+            "code": "        }",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 65,
+            "code": "        <span class=\"k\">final</span> String[] <span class=\"sym-36 sym\">alwaysParentFirstLoaderPatterns</span> =",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 66,
+            "code": "                <span class=\"sym-9 sym\">CoreOptions</span>.getParentFirstLoaderPatterns(<span class=\"sym-32 sym\">configuration</span>);",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 67,
+            "code": "        <span class=\"k\">final</span> String <span class=\"sym-37 sym\">classLoaderResolveOrder</span> =",
+            "scmRevision": "ae553ac1bc5697eba68fa98a2bb6c434287565b3",
+            "scmAuthor": "paullin3280@gmail.com",
+            "scmDate": "2019-11-15T15:56:12+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 68,
+            "code": "                <span class=\"sym-32 sym\">configuration</span>.getString(<span class=\"sym-9 sym\">CoreOptions</span>.CLASSLOADER_RESOLVE_ORDER);",
+            "scmRevision": "ae553ac1bc5697eba68fa98a2bb6c434287565b3",
+            "scmAuthor": "paullin3280@gmail.com",
+            "scmDate": "2019-11-15T15:56:12+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 69,
+            "code": "        <span class=\"sym-13 sym\">FlinkUserCodeClassLoaders</span>.ResolveOrder <span class=\"sym-38 sym\">resolveOrder</span> =",
+            "scmRevision": "ae553ac1bc5697eba68fa98a2bb6c434287565b3",
+            "scmAuthor": "paullin3280@gmail.com",
+            "scmDate": "2019-11-15T15:56:12+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 70,
+            "code": "                <span class=\"sym-13 sym\">FlinkUserCodeClassLoaders</span>.ResolveOrder.fromString(<span class=\"sym-37 sym\">classLoaderResolveOrder</span>);",
+            "scmRevision": "ae553ac1bc5697eba68fa98a2bb6c434287565b3",
+            "scmAuthor": "paullin3280@gmail.com",
+            "scmDate": "2019-11-15T15:56:12+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 71,
+            "code": "        <span class=\"k\">final</span> <span class=\"k\">boolean</span> <span class=\"sym-39 sym\">checkClassloaderLeak</span> =",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 72,
+            "code": "                <span class=\"sym-32 sym\">configuration</span>.getBoolean(<span class=\"sym-9 sym\">CoreOptions</span>.CHECK_LEAKED_CLASSLOADER);",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 73,
+            "code": "        <span class=\"k\">return</span> <span class=\"sym-13 sym\">FlinkUserCodeClassLoaders</span>.create(",
+            "scmRevision": "fce82d7f56d5da3d3bf9ea6b66888d1350eb172f",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 74,
+            "code": "                <span class=\"sym-38 sym\">resolveOrder</span>,",
+            "scmRevision": "fce82d7f56d5da3d3bf9ea6b66888d1350eb172f",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 75,
+            "code": "                <span class=\"sym-33 sym\">urls</span>,",
+            "scmRevision": "fce82d7f56d5da3d3bf9ea6b66888d1350eb172f",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 76,
+            "code": "                <span class=\"sym-31 sym\">parent</span>,",
+            "scmRevision": "fce82d7f56d5da3d3bf9ea6b66888d1350eb172f",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 77,
+            "code": "                <span class=\"sym-36 sym\">alwaysParentFirstLoaderPatterns</span>,",
+            "scmRevision": "fce82d7f56d5da3d3bf9ea6b66888d1350eb172f",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 78,
+            "code": "                <span class=\"sym-24 sym\">NOOP_EXCEPTION_HANDLER</span>,",
+            "scmRevision": "fce82d7f56d5da3d3bf9ea6b66888d1350eb172f",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 79,
+            "code": "                <span class=\"sym-39 sym\">checkClassloaderLeak</span>);",
+            "scmRevision": "fce82d7f56d5da3d3bf9ea6b66888d1350eb172f",
+            "scmAuthor": "arvid@ververica.com",
+            "scmDate": "2020-08-17T04:27:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 80,
+            "code": "    }",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 81,
+            "code": "",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 82,
+            "code": "    <span class=\"k\">public</span> <span class=\"k\">static</span> <span class=\"k\">void</span> <span class=\"sym-40 sym\">executeProgram</span>(",
+            "scmRevision": "cdc0d448951b982b38bd940df09815df3c2ff056",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-12-17T17:34:31+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 83,
+            "code": "            <span class=\"sym-11 sym\">PipelineExecutorServiceLoader</span> <span class=\"sym-41 sym\">executorServiceLoader</span>,",
+            "scmRevision": "d82b6042626a6d5119861438e498292541faa20d",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-01-13T19:59:55+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 84,
+            "code": "            <span class=\"sym-8 sym\">Configuration</span> <span class=\"sym-42 sym\">configuration</span>,",
+            "scmRevision": "03c125c41f12c1f27fe61a320c5a04af200e4ec0",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-14T16:47:36+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 85,
+            "code": "            <span class=\"sym-3 sym\">PackagedProgram</span> <span class=\"sym-43 sym\">program</span>,",
+            "scmRevision": "ab123f2438999384127b2cb401b50fcd441f1c1a",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-07T01:40:10+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 86,
+            "code": "            <span class=\"k\">boolean</span> <span class=\"sym-44 sym\">enforceSingleJobExecution</span>,",
+            "scmRevision": "3ff4cee8e69e8f1772458b63138021593d6acf36",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-21T16:15:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 87,
+            "code": "            <span class=\"k\">boolean</span> <span class=\"sym-45 sym\">suppressSysout</span>)",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 88,
+            "code": "            <span class=\"k\">throws</span> <span class=\"sym-4 sym\">ProgramInvocationException</span> {",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 89,
+            "code": "        checkNotNull(<span class=\"sym-41 sym\">executorServiceLoader</span>);",
+            "scmRevision": "740de1892beb2f597a2f21f85bcd281359a740b9",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-21T19:56:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 90,
+            "code": "        <span class=\"k\">final</span> ClassLoader <span class=\"sym-46 sym\">userCodeClassLoader</span> = <span class=\"sym-43 sym\">program</span>.getUserCodeClassLoader();",
+            "scmRevision": "1f28a24263971c5e9591e90b825a5b8e4a65e99b",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-15T18:50:59+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 91,
+            "code": "        <span class=\"k\">final</span> ClassLoader <span class=\"sym-47 sym\">contextClassLoader</span> = Thread.currentThread().getContextClassLoader();",
+            "scmRevision": "1f28a24263971c5e9591e90b825a5b8e4a65e99b",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-15T18:50:59+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 92,
+            "code": "        <span class=\"k\">try</span> {",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 93,
+            "code": "            Thread.currentThread().setContextClassLoader(<span class=\"sym-46 sym\">userCodeClassLoader</span>);",
+            "scmRevision": "03c125c41f12c1f27fe61a320c5a04af200e4ec0",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-14T16:47:36+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 94,
+            "code": "",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 95,
+            "code": "            <span class=\"sym-27 sym\">LOG</span>.info(",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 96,
+            "code": "                    <span class=\"s\">\"Starting program (detached: {})\"</span>,",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 97,
+            "code": "                    !<span class=\"sym-42 sym\">configuration</span>.getBoolean(<span class=\"sym-10 sym\">DeploymentOptions</span>.ATTACHED));",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 98,
+            "code": "",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 99,
+            "code": "            <span class=\"sym-2 sym\">ContextEnvironment</span>.setAsContext(",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 100,
+            "code": "                    <span class=\"sym-41 sym\">executorServiceLoader</span>,",
+            "scmRevision": "740de1892beb2f597a2f21f85bcd281359a740b9",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-21T19:56:39+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 101,
+            "code": "                    <span class=\"sym-42 sym\">configuration</span>,",
+            "scmRevision": "54e44b88f49411cd3dee2be95846448c2c9e2b38",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2019-11-21T19:56:38+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 102,
+            "code": "                    <span class=\"sym-46 sym\">userCodeClassLoader</span>,",
+            "scmRevision": "ab123f2438999384127b2cb401b50fcd441f1c1a",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-07T01:40:10+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 103,
+            "code": "                    <span class=\"sym-44 sym\">enforceSingleJobExecution</span>,",
+            "scmRevision": "3ff4cee8e69e8f1772458b63138021593d6acf36",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-21T16:15:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 104,
+            "code": "                    <span class=\"sym-45 sym\">suppressSysout</span>);",
+            "scmRevision": "3ff4cee8e69e8f1772458b63138021593d6acf36",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-21T16:15:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 105,
+            "code": "",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 106,
+            "code": "            <span class=\"sym-5 sym\">StreamContextEnvironment</span>.setAsContext(",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 107,
+            "code": "                    <span class=\"sym-41 sym\">executorServiceLoader</span>,",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 108,
+            "code": "                    <span class=\"sym-42 sym\">configuration</span>,",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 109,
+            "code": "                    <span class=\"sym-46 sym\">userCodeClassLoader</span>,",
+            "scmRevision": "ab123f2438999384127b2cb401b50fcd441f1c1a",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-07T01:40:10+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 110,
+            "code": "                    <span class=\"sym-44 sym\">enforceSingleJobExecution</span>,",
+            "scmRevision": "3ff4cee8e69e8f1772458b63138021593d6acf36",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-21T16:15:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 111,
+            "code": "                    <span class=\"sym-45 sym\">suppressSysout</span>);",
+            "scmRevision": "3ff4cee8e69e8f1772458b63138021593d6acf36",
+            "scmAuthor": "kkloudas@gmail.com",
+            "scmDate": "2020-04-21T16:15:13+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 112,
+            "code": "",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 113,
+            "code": "            <span class=\"k\">try</span> {",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 114,
+            "code": "                <span class=\"sym-43 sym\">program</span>.invokeInteractiveModeForExecution();",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 115,
+            "code": "            } <span class=\"k\">finally</span> {",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 116,
+            "code": "                <span class=\"sym-2 sym\">ContextEnvironment</span>.unsetAsContext();",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 117,
+            "code": "                <span class=\"sym-5 sym\">StreamContextEnvironment</span>.unsetAsContext();",
+            "scmRevision": "0523ef6451a93da450c6bdf5dd4757c3702f3962",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2020-03-12T21:31:20+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 118,
+            "code": "            }",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 119,
+            "code": "        } <span class=\"k\">finally</span> {",
+            "scmRevision": "cdc0d448951b982b38bd940df09815df3c2ff056",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-12-17T17:34:31+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 120,
+            "code": "            Thread.currentThread().setContextClassLoader(<span class=\"sym-47 sym\">contextClassLoader</span>);",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 121,
+            "code": "        }",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 122,
+            "code": "    }",
+            "scmRevision": "a65e230503ed345d850bf0ddba5da19abb880479",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-10-18T15:04:01+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 123,
+            "code": "",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 124,
+            "code": "    <span class=\"j\">/**</span>",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 125,
+            "code": "<span class=\"j\">     * This method blocks until the job status is not INITIALIZING anymore.</span>",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 126,
+            "code": "<span class=\"j\">     *</span>",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 127,
+            "code": "<span class=\"j\">     * @param jobStatusSupplier supplier returning the job status.</span>",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 128,
+            "code": "<span class=\"j\">     * @param jobResultSupplier supplier returning the job result. This will only be called if the</span>",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 129,
+            "code": "<span class=\"j\">     *     job reaches the FAILED state.</span>",
+            "scmRevision": "c6997c97c575d334679915c328792b8a3067cfb5",
+            "scmAuthor": "dev@flink.apache.org",
+            "scmDate": "2020-12-28T20:35:13+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 130,
+            "code": "<span class=\"j\">     * @throws JobInitializationException If the initialization failed</span>",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 131,
+            "code": "<span class=\"j\">     */</span>",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 132,
+            "code": "    <span class=\"k\">public</span> <span class=\"k\">static</span> <span class=\"k\">void</span> <span class=\"sym-48 sym\">waitUntilJobInitializationFinished</span>(",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 133,
+            "code": "            <span class=\"sym-17 sym\">SupplierWithException</span>&lt;<span class=\"sym-1 sym\">JobStatus</span>, Exception&gt; <span class=\"sym-49 sym\">jobStatusSupplier</span>,",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 134,
+            "code": "            <span class=\"sym-17 sym\">SupplierWithException</span>&lt;<span class=\"sym-14 sym\">JobResult</span>, Exception&gt; <span class=\"sym-50 sym\">jobResultSupplier</span>,",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 135,
+            "code": "            ClassLoader <span class=\"sym-51 sym\">userCodeClassloader</span>)",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 136,
+            "code": "            <span class=\"k\">throws</span> <span class=\"sym-12 sym\">JobInitializationException</span> {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 137,
+            "code": "        <span class=\"sym-27 sym\">LOG</span>.debug(<span class=\"s\">\"Wait until job initialization is finished\"</span>);",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 138,
+            "code": "        <span class=\"sym-7 sym\">WaitStrategy</span> <span class=\"sym-52 sym\">waitStrategy</span> = <span class=\"k\">new</span> <span class=\"sym-6 sym\">ExponentialWaitStrategy</span>(<span class=\"c\">50</span>, <span class=\"c\">2000</span>);",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 139,
+            "code": "        <span class=\"k\">try</span> {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 140,
+            "code": "            <span class=\"sym-1 sym\">JobStatus</span> <span class=\"sym-53 sym\">status</span> = <span class=\"sym-49 sym\">jobStatusSupplier</span>.get();",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 141,
+            "code": "            <span class=\"k\">long</span> <span class=\"sym-54 sym\">attempt</span> = <span class=\"c\">0</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 142,
+            "code": "            <span class=\"k\">while</span> (<span class=\"sym-53 sym\">status</span> == <span class=\"sym-1 sym\">JobStatus</span>.INITIALIZING) {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 143,
+            "code": "                Thread.sleep(<span class=\"sym-52 sym\">waitStrategy</span>.sleepTime(<span class=\"sym-54 sym\">attempt</span>++));",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 144,
+            "code": "                <span class=\"sym-53 sym\">status</span> = <span class=\"sym-49 sym\">jobStatusSupplier</span>.get();",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 145,
+            "code": "            }",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 146,
+            "code": "            <span class=\"k\">if</span> (<span class=\"sym-53 sym\">status</span> == <span class=\"sym-1 sym\">JobStatus</span>.FAILED) {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 147,
+            "code": "                <span class=\"sym-14 sym\">JobResult</span> <span class=\"sym-55 sym\">result</span> = <span class=\"sym-50 sym\">jobResultSupplier</span>.get();",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 148,
+            "code": "                <span class=\"sym-23 sym\">Optional</span>&lt;<span class=\"sym-16 sym\">SerializedThrowable</span>&gt; <span class=\"sym-56 sym\">throwable</span> = <span class=\"sym-55 sym\">result</span>.getSerializedThrowable();",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 149,
+            "code": "                <span class=\"k\">if</span> (<span class=\"sym-56 sym\">throwable</span>.isPresent()) {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 150,
+            "code": "                    Throwable <span class=\"sym-57 sym\">t</span> = <span class=\"sym-56 sym\">throwable</span>.get().deserializeError(<span class=\"sym-51 sym\">userCodeClassloader</span>);",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 151,
+            "code": "                    <span class=\"k\">if</span> (<span class=\"sym-57 sym\">t</span> <span class=\"k\">instanceof</span> <span class=\"sym-12 sym\">JobInitializationException</span>) {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 152,
+            "code": "                        <span class=\"k\">throw</span> <span class=\"sym-57 sym\">t</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 153,
+            "code": "                    }",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 154,
+            "code": "                }",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 155,
+            "code": "            }",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 156,
+            "code": "        } <span class=\"k\">catch</span> (<span class=\"sym-12 sym\">JobInitializationException</span> <span class=\"sym-58 sym\">initializationException</span>) {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 157,
+            "code": "            <span class=\"k\">throw</span> <span class=\"sym-58 sym\">initializationException</span>;",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 158,
+            "code": "        } <span class=\"k\">catch</span> (Throwable <span class=\"sym-59 sym\">throwable</span>) {",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 159,
+            "code": "            <span class=\"sym-15 sym\">ExceptionUtils</span>.checkInterrupted(<span class=\"sym-59 sym\">throwable</span>);",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 160,
+            "code": "            <span class=\"k\">throw</span> <span class=\"k\">new</span> RuntimeException(<span class=\"s\">\"Error while waiting for job to be initialized\"</span>, <span class=\"sym-59 sym\">throwable</span>);",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 161,
+            "code": "        }",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 162,
+            "code": "    }",
+            "scmRevision": "65ed03936a736190f7ffcb6ba0709a99ffcb98fa",
+            "scmAuthor": "rmetzger@apache.org",
+            "scmDate": "2020-09-06T17:24:52+0700",
+            "utLineHits": 0,
+            "lineHits": 0,
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 163,
+            "code": "}",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        },
+        {
+            "line": 164,
+            "code": "",
+            "scmRevision": "f373628a0e68b79ff2437ea8c8114ed8d3114091",
+            "scmAuthor": "wander4096@gmail.com",
+            "scmDate": "2019-09-23T20:19:02+0700",
+            "duplicated": false,
+            "isNew": false
+        }
+    ]
+}
