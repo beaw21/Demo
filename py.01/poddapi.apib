@@ -1,0 +1,448 @@
+FORMAT: 1A
+
+# podd-api
+API services for mobile application and dashboard.
+
+# Group Authenticate
+## Authenticate [/api-token-auth]
+### Retrieve an access token [POST]
+The 'token' should be stored (attached to the user account in your system) and used in API calls.
++ 
+Request (application/json)
+
+        { 
+            "username": "pphetra",
+            "password": "MY_PASSWORD"
+        }
+
++ Response 200 (application/json)
+
+        {
+            "token": "xdfdfer990df90efefef",
+            "name": "Polawat Phetra",
+            "username": "pphetra",
+            "firstName": "Polawat",
+            "lastName": "Phetra",
+            "status": "PODD",
+            "contact": "xx",
+            "avatarUrl": "https://podd.s3.amazonaws.com/0cdf62c0-a034-4ec5-bcdf-27cdf1bfc5f1",
+            "thumbnailAvatarUrl": "https://podd.s3.amazonaws.com/fa8f625d-c8aa-4b49-85da-adbd74aa7bd0",
+            "authorityAdmins": [],
+            "isStaff": true,
+            "isSuperuser": false,
+            "isAnonymous": false,
+            "isPublic": false,
+            "permissions": [
+                "view_dashboard_plan",
+                "view_dashboard_subscibe",
+                "view_dashboard_users",
+                "view_dashboard_summary_admin_report",
+                "view_dashboard_summary_report",
+                "view_dashboard_summary_subscribe_report"
+            ]
+        }
+
+# Group Preferences
+## Configuration [/configuration]
+### Retrieve a configuration [POST]
+Submit device information and get back a set of configurations.
++ Request (application/json)
+    + Body
+    
+            {
+                "androidId": "908dfdf",     // optional
+                "deviceId": "980ddfdfdf",   // mandatory
+                "brand": "xxxxx",           // mandatory
+                "model": "yyyyy",           // mandatory
+                "wifiMac": "90-df-dfd-9dfd" // optional
+            }
+
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "fullName": "Mr. Jirawat piangam",
+                "awsSecretKey": "xxxxxxxxxxxxxxx",
+                "awsAccessKey": "xxxxxxxxxxxxxxx",
+                "domains": [
+                    {
+                        "id": 1,
+                        "name": "domain A"
+                    },
+                    {
+                        "id": 2,
+                        "name": "domain B"
+                    }
+                ],
+                "domain": {
+                    "id": 1,
+                    "name": "domain A"
+                },
+                "administrationAreas": [
+                    {
+                        id: 3343,
+                        name: "หมู่บ้านสันทราย"
+                    },
+                    {
+                        id: 3903,
+                        name: "หมู่บ้านสันปง"
+                    }
+                ],
+                "reportTypes": [
+                    {
+                        "id": 1343,
+                        "name": "animal sick/death",
+                        "version": 2,
+                        "definition": {
+                            "startPageId": 2,
+                            "questions": [
+                            
+                            ],
+                            "pages": [
+                            
+                            ],
+                            "transitions": [
+                            
+                            ]
+                        }
+                    },
+                    {
+                        "id": 3333,
+                        "name": "animal bite",
+                        "version": 1,
+                        "definition": {
+                            "startPageId": 2,
+                            "questions": [
+                            
+                            ],
+                            "pages": [
+                            
+                            ],
+                            "transitions": [
+                            
+                            ]
+                        }
+                    }
+                ]
+            }
+
+# Group Report Types
+
+## Report types Collection [/reportTypes]
+
+### List all Report Types [GET]
++ Response 200 (application/json)
+
+    + Body
+    
+            {
+                "reportTypes": [
+                    {
+                        "id": 1343,
+                        "name": "animal sick/death",
+                        "version": 2
+                    },
+                    {
+                        "id": 3333,
+                        "name": "animal bite",
+                        "version": 1
+                    }
+                ]
+            }
+
+## Retrive Report type [/reportTypes/{id}]
+
+### Retrive Report type definition [GET]
++ Response 200 (application/json)
+
+    + Body
+        
+            {
+                "id": 1343,
+                "name": "animal sick/death",
+                "version": 2,
+                "definition": {
+                    "startPageId": 2,
+                    "questions": [ ],
+                    "pages": [ ],
+                    "transitions": [ ]
+                }
+            }
+
+
+# Group Reports
+## Report Collection [/reports]
+### Create a Report [POST]
++ Request (application/json)
+
+        { 
+            "reportId": 123,
+            "guid": "09d09djjjkdf09df0dfdfdfdf",
+            "reportTypeId": 11,
+            "reportedBy": "นางสว่าง ไสวเหลือเกิน",
+            "date": "2014-09-01T10:00:30+07:00",
+            "incidentDate": "2014-09-01",
+            "administrationAreaId": 34343,
+            "remark": "xxxxxxxxxxxxxx",
+            "formData": {
+                "animalType": "dog",
+                "animalGroup": "สัตว์เลี้ยง",
+                "symptom": "cough,fever,pain",
+                "sickCount": 4,
+                "deathCount": 3,
+                "totalCount": 12,
+                "nearByCount": 3
+            },
+            "reportLocation": {
+                "latitude": 13,
+                "longitude": 100
+            },
+            "negative": true
+        }
+        
+        
++ Response 200 (application/json)
+
+        {
+            "success": true,
+            "errorMessage": "xxxxxx"
+        }
+        
+
+### Retrieve a list of report [GET]
++ Request (application/json)
+        
+        {
+            admistrationAreas: [ 123, 456, 789 ]
+        }
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id": 73343,
+                "reportId": 123,
+                "createdBy": 334,
+                "createdByName": "นายสมจิต จงจองหอ",
+                "guid": "09d09djjjkdf09df0dfdfdfdf",
+                "reportTypeId": 11,
+                "reportTypeName": "sick/death",
+                "date": "2014-10-06T18:00:30+07:00",
+                "incidentDate": "2014-09-01",
+                "administrationAreaId": 34343,
+                "negative": true
+            },
+            {
+                "id": 73344,
+                "reportId": 124,
+                "createdBy": 234,
+                "createdByName": "นางสว่าง ไสวเหลือเกิน",
+                "guid": "ab90298fe993029c0e",
+                "reportTypeId": 11,
+                "reportTypeName": "sick/death",
+                "date": "2014-10-06T18:00:30+07:00",
+                "incidentDate": "2014-10-06",
+                "administrationAreaId": 34370,
+                "negative": false
+            }
+        ]
+
+## Query report [/reports/search?q={q}]
+### Search report by using elasticsearch syntax [GET]
++ Parameters
+    + q (required, string) ... Ex. animal_type:"ไก่" sick_num__gt:10
+
++ Response 200 (application/json)
+    
+        [
+            {
+                "id": 73343,
+                "reportId": 123,
+                "createdBy": 334,
+                "createdByName": "นายสมจิต จงจองหอ",
+                "guid": "09d09djjjkdf09df0dfdfdfdf",
+                "reportTypeId": 11,
+                "reportTypeName": "sick/death",
+                "date": "2014-10-06T18:00:30+07:00",
+                "incidentDate": "2014-09-01",
+                "administrationAreaId": 34343,
+                "negative": true
+            },
+            {
+                "id": 73344,
+                "reportId": 124,
+                "createdBy": 234,
+                "createdByName": "นางสว่าง ไสวเหลือเกิน",
+                "guid": "ab90298fe993029c0e",
+                "reportTypeId": 11,
+                "reportTypeName": "sick/death",
+                "date": "2014-10-06T18:00:30+07:00",
+                "incidentDate": "2014-10-06",
+                "administrationAreaId": 34370,
+                "negative": false
+            }
+        ]
+
+## Report [/report/{id}]
+### Retrieve a report [GET]
++ Response 200 (application/json)
+
+        {
+            "id": 73343,
+            "reportId": 123,
+            "guid": "09d09djjjkdf09df0dfdfdfdf",
+            "reportTypeId": 11,
+            "createdBy": "นางสว่าง ไสวเหลือเกิน",
+            "date": "2014-09-01T10:00:30+07:00",
+            "incidentDate": "2014-09-01",
+            "administrationAreaId": 34343,
+            "remark": "xxxxxxxxxxxxxx",
+            "images": [
+                {
+                    "imageUrl": "http://placepuppy.it/500/300",
+                    "thumbnailUrl": "http://placepuppy.it/100/60",
+                    "note": "fever"
+                },
+                {
+                    "imageUrl": "http://placepuppy.it/600/300",
+                    "thumbnailUrl": "http://placepuppy.it/120/60",
+                    "note": "death"
+                }
+            ],
+            "formData": [
+                {
+                    "name": "animalType",
+                    "value": "ไก่"
+                },
+                {
+                
+                    "name": "animalGroup",
+                    "value": "สัตว์เลี้ยง"
+                },
+                {
+                    "name": "symptom",
+                    "value": "cough,fever,pain"
+                },
+                {
+                    "name": "sickCount",
+                    "value": "4"
+                },
+                {
+                    "name": "deathCount",
+                    "value": "4"
+                },
+                {
+                    "name": "totalCount",
+                    "value": "12"
+                },
+                {
+                    "name": "nearByCount",
+                    "value": "1"
+                }
+            ],
+            "negative": true
+        }
+
+## Report Image Collection [/reportImages]
+### Create a Report Image [POST]
++ Request (application/json)
+
+        { 
+            "reportGuid": "09d09djjjkdf09df0dfdfdfdf",
+            "guid": "dfdfdf0003434300343",
+            "imageUrl": "http://s3.aws.com/podd/dfdere/09808",
+            "thumbnailUrl": "http://s3.aws.com/podd/dfdere/09808",
+            "note": "fever"
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "success": true,
+            "errorMessage": "xxxxxx"
+        }
+        
+# Group Comments
+
+## Report comments [/reportComments/]
+### Create new comment [POST]
++ Request (application/json)
+
+        {
+            "reportId": 31,
+            "message": "Today is a good day"
+        }
+        
++ Response 200 (application/json)
+    
+        {
+            "id": 16,
+            "reportId": 31,
+            "message": "Today is a good day",
+            "createdBy": "นายสมจิตร ลวงลิงหลับ",
+            "createdAt": "2014-11-10T09:00:00Z"
+        }
+
+## List comments [/reportComments/?reportId={reportId}]
+### List report 's comment [GET]
++ Parameters
+    + reportId (required, string) ... Id of the report
+        
++ Response 200 (application/json)
+    
+        
+        [
+            {
+                "id": 16,
+                "reportId": 31,
+                "message": "Today is a good day",
+                "createdBy": "นายสมจิตร ลวงลิงหลับ",
+                "createdAt": "2014-11-10T09:00:00Z"
+            },
+            {
+                "id": 15,
+                "reportId": 31,
+                "message": "Yesterday is a good day as well",
+                "createdBy": "นายสมจิตร ลวงลิงหลับ",
+                "createdAt": "2014-11-09T09:00:00Z"
+            }
+        ]
+
+# Group Dashboard
+
+## Group by village [/dashboard/villages]
+### Retrive Report collection group by village [GET]
++ Response 200 (application/json)
+    + body
+    
+            [
+                {
+                    id: 134,
+                    name: 'หมู่บ้านสันปง',
+                    location: {
+                        type: 'Point,
+                        coordinates: [100.00, 55.00],
+                    },
+                    positive: 2,
+                    negative: 1,
+                    positiveCases: [ 
+                        {   
+                            id: 343,
+                            createdBy: 'นายประกอบ มุ่งดี',
+                            date: '2012-10-09T10:00:00+07:00',
+                            incidentDate: '2012-10-09'
+                        }
+                    ],
+                    negativeCases: [
+                        {   
+                            id: 343,
+                            createdBy: 'นายประกอบ มุ่งดี',
+                            date: '2012-10-09T10:00:00+07:00',
+                            incidentDate: '2012-10-09',
+                            eventTypeName: 'sick/death'
+                        }
+                    ]
+                }
+            ]
